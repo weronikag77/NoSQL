@@ -1,7 +1,71 @@
-[
-  { "code": "CS101", "title": "Introduction to Computer Science", "instructor": "John Doe" },
-  { "code": "CS102", "title": "Data Structures & Algorithms", "instructor": "Jane Smith" },
-  { "code": "CS103", "title": "Relational Databases & SQL", "instructor": "Alan Turing" },
-  { "code": "CS104", "title": "Object-Oriented Programming in Java", "instructor": "Grace Hopper" },
-  { "code": "CS105", "title": "Web Development Fundamentals", "instructor": "Tim Berners-Lee" }
-]
+{
+  "university": "Tech University",
+  "semester": 5,
+  "courseList": [
+    { "code": "CS101", 
+      "title": "Introduction to Computer Science", 
+      "instructor": {
+        "fullName": "John Doe",
+        "academicTitle": "PhD",
+        "email": "johndoe@techuniversity.edu" 
+        },
+        "enrolledStudents": [
+          {"studentId": 1, "finalGrade": 4.0},
+          {"studentId": 2, "finalGrade": 3.5},
+          {"studentId": 3, "finalGrade": 4.5}
+        ]
+    },
+    { "code": "CS102", 
+      "title": "Data Structures & Algorithms", 
+      "instructor": {
+        "fullName": "Jane Smith",
+        "academicTitle": "PhD",
+        "email": "janesmith@techuniversity.edu" 
+        },
+        "enrolledStudents": [
+          {"studentId": 1, "finalGrade": 3.0},
+          {"studentId": 2, "finalGrade": 3.5},
+          {"studentId": 3, "finalGrade": 5.0}
+        ]
+    },
+    { "code": "CS103", 
+      "title": "Relational Databases & SQL", 
+      "instructor": {
+        "fullName": "Alan Turing",
+        "academicTitle": "PhD",
+        "email": "alanturing@techuniversity.edu" 
+        },
+        "enrolledStudents": [
+          {"studentId": 1, "finalGrade": 4.0},
+          {"studentId": 2, "finalGrade": 4.5},
+          {"studentId": 3, "finalGrade": 5.0}
+        ]
+    },
+    { "code": "CS104", 
+      "title": "Object-Oriented Programming in Java", 
+      "instructor": {
+        "fullName": "Grace Hopper",
+        "academicTitle": "PhD",
+        "email": "gracehopper@techuniversity.edu" 
+        },
+        "enrolledStudents": [
+          {"studentId": 1, "finalGrade": 3.0},
+          {"studentId": 2, "finalGrade": 3.5},
+          {"studentId": 3, "finalGrade": 2.0}
+        ]
+    },
+    { "code": "CS105", 
+      "title": "Web Development Fundamentals", 
+      "instructor": {
+        "fullName": "Tim Berners-Lee",
+        "academicTitle": "PhD",
+        "email": "timberners-lee@techuniversity.edu" 
+        },
+        "enrolledStudents": [
+          {"studentId": 1, "finalGrade": null},
+          {"studentId": 2, "finalGrade": null},
+          {"studentId": 3, "finalGrade": null}
+        ]
+    }
+    ]
+}

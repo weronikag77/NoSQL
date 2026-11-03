@@ -1,0 +1,40 @@
+{
+    "storeName": "x-kom",
+    "isActive": true,
+    "lastUpdated": "2026-10-08T10:00:00Z",
+    "products": [
+        {
+            "id": 1,
+            "name": "AMD Radeon RX 9070XT",
+            "price": 3799.99,
+            "tags": ["GPU", "Gaming", "Black Friday Sale"],
+            "specs": {
+                "VRAM": "16 GB",
+                "warranty": "2 years",
+                "releaseDate": "2025-07-11"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Intel Core i9-14900K",
+            "price": 999.99,
+            "tags": ["CPU", "Black Friday Sale", "New Release"],
+            "specs": {
+                "cores": 24,
+                "warranty": "3 years",
+                "releaseDate": "2025-01-01"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Apple iPhone 15 Pro Max",
+            "price": 4199.99,
+            "tags": ["Smartphone", "iOS", "Black Friday Sale"],
+            "specs": {
+                "storage": "256 GB",
+                "warranty": "2 years",
+                "releaseDate": "2023-09-01"
+            }
+        }
+    ]
+}

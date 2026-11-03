@@ -1,8 +1,8 @@
 {
     "productId": "56",
     "title": "Laptop",
-    "price": 457,00,
+    "price": 457.00,
     "currency":"€",
     "category": "computers",
-    "inStock": False
+    "inStock": false
 }

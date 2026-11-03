@@ -1,0 +1,21 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"type": "object",
+"orderId": {"type": "string"},
+"customer": {
+    "fullName": {"type": "string"},
+    "email": {"type": "string", "format": "email"}
+},
+"items": {
+    "type": "array",
+    "items": {
+    "sku": "string",
+    "quantity": {"type": "integer", "minimum": 1},
+    "unitPrice": {"type": "number", "minimum": 0}
+}
+},
+"status":  {"type": "string", "enum": [
+                "pending", "shipped", "delivered", "cancelled"
+        ]},
+"required": ["orderId", "customer", "items"]
+}

@@ -1,0 +1,12 @@
+{
+"$schema": "./order_schema.json",
+"orderId": "ORD12345",
+"customer": {"fullName": "John Doe", "email": "john.doe@example.com"},
+"items": [
+    {"sku": "PROD001", "quantity": 2, "unitPrice": 19.99},
+    {"sku": "PROD002", "quantity": 1, "unitPrice": 49.99}
+],
+"status": "pending",
+    "discountCode": "SAVE10"
+
+}
