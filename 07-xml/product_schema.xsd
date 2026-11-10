@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="product">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="productId" type="xs:integer" minOccurs="1"/>
+                <xs:element name="title">
+                    <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                            <xs:minLength value="3"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="price" minOccurs="1">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:decimal">
+                            <xs:minInclusive value="0.1"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="category" minOccurs="1">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:enumeration value="electronics"/>
+                        <xs:enumeration value="books"/>
+                        <xs:enumeration value="clothing"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="inStock" type="xs:boolean" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

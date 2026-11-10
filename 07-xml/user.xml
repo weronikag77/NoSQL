@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<user>
-  <username>admin user!</username>
-  <email>invalid-email-address</email>
-  <age>15</age>
-  <roles>
-    <role>admin</role>
-  </roles>
+<xs:schema xmlns:xs="user_schema.xsd"></xs:schema>
+    <username>admin_user</username>
+    <email>invalid-email-address</email>
+    <age>15</age>
+    <roles>
+      <role>admin</role>
+    </roles>
 </user>

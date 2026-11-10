@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product productId="invalid_id">
-  <title>L</title>
-  <price>-15.00</price>
-  <category>computers</category>
+<product>
+<xs:schema xmlns:xs="product_schema.xsd"></xs:schema>
+  <productId>123</productId>
+  <title>Laptop</title>
+  <price>5.00</price>
+  <category>computer</category>
   <inStock>maybe</inStock>
 </product>
